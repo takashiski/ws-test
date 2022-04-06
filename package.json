@@ -1,0 +1,24 @@
+{
+    "name": "ws-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.26.1",
+        "fetch": "^1.1.0",
+        "got": "^12.0.3",
+        "node-fetch": "^3.2.2",
+        "ws": "^8.5.0"
+    },
+    "devDependencies": {
+        "electron": "^17.1.0"
+    }
+}
